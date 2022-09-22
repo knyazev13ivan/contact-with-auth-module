@@ -10,7 +10,10 @@ Node version: 16.13.0
 
 ```bash
 npm i
+```
 
+Запуск сервера
+```bash
 node ./src/server/server.js
 ```
 
@@ -20,7 +23,7 @@ node ./src/server/server.js
 npm run start
 ```
 
-Для запуска production сборки
+Для запуска production сборки:
 ```bash
 npm run build
 
