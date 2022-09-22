@@ -1,0 +1,14 @@
+@import "../../../../variables.scss";
+@import "./contact-card.scss";
+
+.contact-list {
+  width: 500px;
+
+  @include media-tablet {
+    width: 400px;
+  }
+
+  @include media-mobile {
+    width: 300px;
+  }
+}

@@ -1,0 +1,44 @@
+@import "../../../../variables.scss";
+
+.contact-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+
+  &__btn {
+    height: 100%;
+    margin: 0px 5px;
+    // border-radius: 15px;
+    font-size: 0.8em;
+  }
+}
+
+.contact-card-body {
+  width: 300px;
+  padding: 0px 15px;
+
+  @include media-tablet {
+    width: 400px;
+  }
+
+  @include media-mobile {
+    width: 300px;
+  }
+
+  &__name {
+    padding: 5px;
+    border-bottom: 1px solid #bbbbbb;
+    font-weight: bold;
+  }
+  
+  &__phone {
+    padding: 5px;
+    font-style: italic;
+  }
+}

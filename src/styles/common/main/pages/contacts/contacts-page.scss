@@ -1,0 +1,9 @@
+@import "../../../../variables.scss";
+@import "./contacts-list.scss";
+
+.contacts-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

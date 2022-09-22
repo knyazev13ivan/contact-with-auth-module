@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "email": "test@mail.com",
+      "password": "$2a$10$iKJwJOilbKTaeEuKczq2POQTxviMskzElXxnuoU6S86./UaL4AW6.",
+      "id": 1
+    }
+  ],
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Иван",
+      "phone": "89150123456"
+    },
+    {
+      "id": 2,
+      "name": "Михаил",
+      "phone": "89139837867"
+    },
+    {
+      "id": 3,
+      "name": "Катерина",
+      "phone": "89124859302"
+    },
+    {
+      "id": 4,
+      "name": "Alice",
+      "phone": "89128923312"
+    },
+    {
+      "id": 5,
+      "name": "Bob",
+      "phone": "89112223344"
+    },
+    {
+      "id": 6,
+      "name": "John",
+      "phone": "89157575555"
+    }
+  ]
+}
